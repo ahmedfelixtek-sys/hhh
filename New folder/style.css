@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    overflow: hidden;
+}
+
+.container {
+    margin-top: 150px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.yes {
+    background: green;
+    color: white;
+}
+
+.no {
+    background: red;
+    color: white;
+    position: absolute;
+}
+
+/* قلوب */
+.heart {
+    position: absolute;
+    color: red;
+    animation: float 5s linear infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(100vh); }
+    100% { transform: translateY(-10vh); }
+}
